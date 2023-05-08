@@ -6,7 +6,7 @@ resource "okta_app_oauth" "Calculation_Engine" {
   hide_web                   = "false"
   implicit_assignment        = "false"
   issuer_mode                = "DYNAMIC"
-  label                      = "Calculation Engine Test!"
+  label                      = "Calculation Engine"
   login_mode                 = "SPEC"
   login_uri                  = "https://${var.url}/calculationengine/login"
   pkce_required              = "false"
