@@ -17,7 +17,7 @@ resource "okta_app_oauth" "Calculation_Engine" {
   token_endpoint_auth_method = "client_secret_basic"
   type                       = "web"
   wildcard_redirect          = "DISABLED"
-
+  
   lifecycle {
     ignore_changes = [groups]
   }
